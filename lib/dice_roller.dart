@@ -20,7 +20,7 @@ const DiceRoller({super.key});
 //    activeDiceImage = 'assets/images/dice-images/dice-$diceRoll.png'; 
 //   });
   class _DiceRollerState extends State<DiceRoller> {
-  var currentDiceRoll = 2;
+  var currentDiceRoll = 3;
 void rollDice() {
   setState(() {
     //here everythimr dice is rolled a new random object is created which is inefficient hence we create it only once and then keep ading valeus to it
